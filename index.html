@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ловим флешки лицом — White Spirt</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="startScreen">
+    <h1>Ловим флешки лицом</h1>
+    <button id="startButton">Начать</button>
+  </div>
+  <canvas id="gameCanvas" width="1600" height="900"></canvas>
+
+  <div id="overlayText"></div>
+
+  <audio id="bgMusic" loop>
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="clickSound">
+    <source src="assets/click.wav" type="audio/wav">
+  </audio>
+  <audio id="hitSound">
+    <source src="assets/hit.wav" type="audio/wav">
+  </audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
